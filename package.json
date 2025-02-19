@@ -1,7 +1,7 @@
 {
   "name": "graphql-script-builder",
   "version": "0.0.1",
-  "description": "Tool for automated creation of GraphQL scripts",
+  "description": "Simple tool for automated creation of typed GraphQL schemas and scripts",
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
@@ -11,6 +11,13 @@
   },
   "author": "kalashnikov vlad",
   "license": "MIT",
+  "keywords": [
+    "graphql",
+    "schema-builder"
+  ],
+  "directories": {
+    "example": "examples"
+  },
   "devDependencies": {
     "typescript": "^5.5.2"
   },
